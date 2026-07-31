@@ -6,7 +6,7 @@ This repository contains the **OpenReview-200** dataset, a curated collection of
 
 The dataset supports research on understanding the differences between human-written and AI-generated peer reviews and facilitates studies in AI-generated scientific text detection, peer review quality assessment, and trustworthy AI.
 
----
+
 
 ## 📊 Dataset Description
 
@@ -19,7 +19,7 @@ To construct the dataset:
 
 The resulting dataset contains **400 reviews** corresponding to **200 unique papers**, where each paper has one authentic review and one AI-generated review, enabling direct one-to-one comparison.
 
----
+
 
 ## 🗂️ Data Format
 
@@ -37,19 +37,19 @@ The dataset is provided in CSV format with the following columns:
 - Authentic
 - AI-Generated
 
----
+
 
 ## 🔄 Pairing Strategy
 
 Each authentic review is paired with its corresponding AI-generated review using a normalized article title. Titles were converted to lowercase, extra spaces were removed, and any scraped **"OpenReview"** suffix was stripped to ensure correct one-to-one matching.
 
----
+
 
 ## 🧩 Funding and Supervision
 
 This dataset was developed as part of a **Graduate Research Funding Committee (GRFC)** funded research project at **Southeast Missouri State University (SEMO)** under the supervision of **Dr. Junaid Shuja**.
 
----
+
 
 ## 📚 Data Source
 
@@ -60,7 +60,7 @@ The authentic reviews originate from the publicly available **ICLR OpenReview** 
 Repository:
 https://github.com/Seafoodair/Openreview
 
----
+
 
 ## ⚠️ Note
 
@@ -68,7 +68,7 @@ This dataset supports ongoing research and may be updated following peer review 
 
 If you use this dataset in your research, please cite this repository.
 
----
+
 
 ## 📄 Citation
 
